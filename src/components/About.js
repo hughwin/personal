@@ -1,7 +1,5 @@
-const About = (show) => {
+const About = () => {
 
-    console.log(show)
-    if(show){
     return(
     <div class="text-center">
         <h1 class="header" id="about">About</h1>
@@ -19,9 +17,6 @@ const About = (show) => {
             </p>
     </div>
     )
-    }
-    else{return(null)
-    }
 }
 
     export default About
