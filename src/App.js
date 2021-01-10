@@ -1,8 +1,13 @@
 import './App.css';
+import Topbar from './components/TopBar';
+import Landing from './components/Landing'
 
 function App() {
   return (
-    <p>Test</p>
+    <div>
+      <Topbar />
+      <Landing/>
+    </div>
   )
 }
 
