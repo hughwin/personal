@@ -15,14 +15,10 @@ function App() {
     setShowAbout(!showAbout)
   }
 
-  const buttonTest = () => setShowAbout(!showAbout)
-
-
   return (
     <div>
       <Topbar setAbout={setAboutClick}/>
       <Landing/>
-      <input type="submit" value="Search" onClick={buttonTest} /> 
       {showAbout ? <About/> : null}
     </div>
   )
