@@ -1,11 +1,10 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import Link from 'react-scroll'
 
 const Topbar = ({setAbout}) => {
 
   const handleAboutClick = () => {
-    console.log("clicked")
-    console.log(setAbout)
     setAbout()
   }
 

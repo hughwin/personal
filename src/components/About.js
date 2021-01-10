@@ -1,4 +1,5 @@
 const About = (show) => {
+
     console.log(show)
     if(show){
     return(
@@ -19,8 +20,8 @@ const About = (show) => {
     </div>
     )
     }
-    else{return(null)}
+    else{return(null)
+    }
 }
 
-    
     export default About
