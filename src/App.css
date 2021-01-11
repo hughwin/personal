@@ -102,14 +102,10 @@ body {
   overflow:hidden;
 }
 
-.fa {
-  font-size: 75px;
+a {
   color: grey;
 }
 
-.social .fa-facebook-official:hover {
-  color: rgb(29, 230, 184);
-}
 
 .social .fa-github:hover {
   color: rgb(33, 200, 204);
