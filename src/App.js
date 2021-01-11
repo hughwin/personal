@@ -1,7 +1,6 @@
 import './App.css';
 import About from './components/About'
 import Contact from './components/Contact'
-import Topbar from './components/TopBar';
 import Landing from './components/Landing'
 import { useState } from 'react';
 import { Element, scroller, } from "react-scroll";
@@ -17,7 +16,7 @@ function App() {
 
   const setAboutClick = () => {
     console.log("fire!")
-    setShowAbout(!showAbout)
+    setShowAbout(true)
     scroller.scrollTo("aboutElement", {
       duration: 2000,
       delay: 100,
@@ -28,7 +27,7 @@ function App() {
 
   const setContactClick = () => {
     console.log("fire!")
-    setShowContact(!showContact)
+    setShowContact(true)
     scroller.scrollTo("contactElement", {
       duration: 2000,
       delay: 100,
@@ -40,9 +39,8 @@ function App() {
 
   return (
     <div>
-      <Topbar setAbout={setAboutClick} setContact={setContactClick}/>
-      <Landing/>
-      {showAbout ? <About/> : null}
+      <Landing setAbout={setAboutClick} showArrow={showAbout}/>
+      {showAbout ? <About setContact={setContactClick} showArrow={showContact}/> : null}
       <Element name="aboutElement"/>
       {showContact ? <Contact/> : null}
       <Element name="contactElement"/>

@@ -90,20 +90,35 @@ body {
   max-width: 100% !important;
 }
 
-.panel {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
-  overflow: hidden;
-  transition: box-shadow 0.5s;
-        height: 425px
+#arrow {
+  position: absolute !important;
+  bottom: 0 !important;
+  color: white;
+  opacity: .25;
 }
 
-.panel:hover {
-  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
-  overflow:hidden;
+#arrow:hover {
+  font-size:4em;
+  transition: 1s ease-out;
+  opacity: 1;
+}
+
+.fadeIn{
+  opacity:1;
+  width:100px;
+  height:100px;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+
+.fadeOut{
+  opacity:0;
+  width:0;
+  height:0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
 }
 
 a {
-  color: grey;
+  color: grey !important;
 }
 
 
