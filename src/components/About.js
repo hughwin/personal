@@ -1,6 +1,7 @@
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import hughImage from "./images/hugh.jpg"
+import hughImage from "./assets/hugh.jpg"
+import transcript from "./assets/Winchester, Hugh.pdf"
 
 const About = ({setContact, showArrow}) => {
     console.log(setContact)
@@ -18,10 +19,10 @@ const About = ({setContact, showArrow}) => {
            <p>Hi, my name's Hugh. After 5 years working as a police officer, I decided that I wanted to try something different. </p>
         </div>
         <div>
-            <p>I am currently studying for a Master's of Software Development at the University of Glasgow after discovering that I liked making computers do things.</p>
+            <p>I have recently completed a master's degree at the University of Glasgow where I graduated with distinction. <a href={transcript}>Click here</a> for a copy of my transcript.</p>
         </div>
         <div>
-            <p>I code frequently, and enjoy completing challenges on CodeWars, Leetcode and building my own projects. To see what I have been working on recently, please see my GitHub account.</p>
+            <p>I code frequently, and enjoy completing challenges on CodeWars, Leetcode, building my own projects, and learning new skills. To see what I have been working on recently, please see my GitHub account.</p>
         </div>
             <p>Below, you can see the results of some of my tinkering.</p> 
             </p>
