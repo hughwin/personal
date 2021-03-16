@@ -1,3 +1,8 @@
+# Personal website rewritten in React
+
+As a challenge, I rewrote my [personal website](https://hughwin.github.io/) with React to test my learning. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
