@@ -134,3 +134,10 @@ a {
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
+
+#hughImage {
+    border-radius: 8px;
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+}

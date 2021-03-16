@@ -1,5 +1,6 @@
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import hughImage from "./images/hugh.jpg"
 
 const About = ({setContact, showArrow}) => {
     console.log(setContact)
@@ -10,6 +11,7 @@ const About = ({setContact, showArrow}) => {
 
     return(
     <div class="text-center">
+        <img id="hughImage"  src={hughImage} alt="The website creator"/>
         <h1 class="header" id="about">About</h1>
         <p class="container-fluid">
             <div>
