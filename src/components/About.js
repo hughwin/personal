@@ -4,7 +4,7 @@ import hughImage from "./assets/hugh.jpg";
 import transcript from "./assets/Winchester, Hugh.pdf";
 import cv from "./assets/CV Hugh Winchester final.pdf";
 
-const About = ({setTinkering, showArrow }) => {
+const About = ({ setTinkering, showArrow }) => {
   console.log(setTinkering);
 
   const handleContactClick = () => {

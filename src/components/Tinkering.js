@@ -1,6 +1,6 @@
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import  Card  from "./Card"
+import Card from "./Card";
 
 const Tinkering = ({ setContact, showArrow }) => {
   const handleContactClick = () => {
@@ -14,11 +14,15 @@ const Tinkering = ({ setContact, showArrow }) => {
       </h1>
       <div class="text-center container-fluid">
         <div class="row">
-            <Card title={"Test title"} text={"Test text"}/>
-            <Card title={"Test title2"} text={"Test text2"}/>
-            <Card title={"Test title3"} text={"Test text3"}/>
-
-
+          <div class="col-md-3 col-md-offset-2">
+            <Card title={"Test title"} text={"Test text"} />
+          </div>
+          <div class="col-md-3 col-md-offset-2">
+            <Card title={"Test title2"} text={"Test text2"} />
+          </div>
+          <div class="col-md-3 col-md-offset-2">
+            <Card title={"Test title3"} text={"Test text3"} />
+          </div>
         </div>
       </div>
       {!showArrow ? (
