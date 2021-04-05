@@ -1,8 +1,7 @@
-
 .navbar-nav {
-    margin: 1;
-    padding: 7.5px 15px;
-    overflow:hidden;
+  margin: 1;
+  padding: 7.5px 15px;
+  overflow: hidden;
 }
 
 #bootstrap_menu.navbar-default .navbar-brand {
@@ -15,20 +14,20 @@
   border-bottom-width: 0;
 }
 
-#bootstrap_menu.navbar-default .navbar-nav>li>a {
+#bootstrap_menu.navbar-default .navbar-nav > li > a {
   color: rgba(119, 119, 119, 1);
   background-color: rgba(255, 255, 255, 1);
 }
 
-#bootstrap_menu.navbar-default .navbar-nav>li>a:hover,
-#bootstrap_menu.navbar-default .navbar-nav>li>a:focus {
+#bootstrap_menu.navbar-default .navbar-nav > li > a:hover,
+#bootstrap_menu.navbar-default .navbar-nav > li > a:focus {
   color: rgba(51, 51, 51, 1);
   background-color: rgba(187, 197, 199, 1);
 }
 
-#bootstrap_menu.navbar-default .navbar-nav>.active>a,
-#bootstrap_menu.navbar-default .navbar-nav>.active>a:hover,
-#bootstrap_menu.navbar-default .navbar-nav>.active>a:focus {
+#bootstrap_menu.navbar-default .navbar-nav > .active > a,
+#bootstrap_menu.navbar-default .navbar-nav > .active > a:hover,
+#bootstrap_menu.navbar-default .navbar-nav > .active > a:focus {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(36, 193, 224, 1);
 }
@@ -52,41 +51,39 @@
 }
 
 .top {
-  background: linear-gradient(135deg, #1DE9B6 0%, #2979FF 100%);
-  font-family: 'Lato', sans-serif;
+  background: linear-gradient(135deg, #1de9b6 0%, #2979ff 100%);
+  font-family: "Lato", sans-serif;
   color: white;
   height: 100vh;
   width: 100vw;
   padding-top: 250px;
   padding-bottom: 200px;
-  overflow:hidden;
-  
+  overflow: hidden;
 }
 
 .header {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 70px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .title {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 80px;
   font-size: 8vw;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 html,
 body {
-  
   height: 100%;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   max-width: 100% !important;
 }
 
@@ -94,33 +91,32 @@ body {
   position: absolute !important;
   bottom: 0 !important;
   color: white;
-  opacity: .25;
+  opacity: 0.25;
 }
 
 #arrow:hover {
-  font-size:4em;
+  font-size: 4em;
   transition: 1s ease-out;
   opacity: 1;
 }
 
-.fadeIn{
-  opacity:1;
-  width:100px;
-  height:100px;
+.fadeIn {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
   transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
 }
 
-.fadeOut{
-  opacity:0;
-  width:0;
-  height:0;
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
   transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
 }
 
 a {
   color: grey !important;
 }
-
 
 .social .fa-github:hover {
   color: rgb(33, 200, 204);
@@ -131,13 +127,13 @@ a {
 }
 
 .container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 #hughImage {
-    border-radius: 8px;
-    width: 50%;
-    height: auto;
-    padding-top: 50px;
+  border-radius: 8px;
+  width: 50%;
+  height: auto;
+  padding-top: 50px;
 }
