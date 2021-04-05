@@ -4,11 +4,11 @@ import hughImage from "./assets/hugh.jpg";
 import transcript from "./assets/Winchester, Hugh.pdf";
 import cv from "./assets/CV Hugh Winchester final.pdf";
 
-const About = ({ setContact, showArrow }) => {
-  console.log(setContact);
+const About = ({setTinkering, showArrow }) => {
+  console.log(setTinkering);
 
   const handleContactClick = () => {
-    setContact();
+    setTinkering();
   };
 
   return (
